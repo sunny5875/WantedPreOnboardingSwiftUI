@@ -25,7 +25,7 @@ extension Presenter: CalculateViewDelegate {
     
     func didChangeInputText(_ calculatorView: CalculatorView, input: String) {
         let sum = model.calculate(with: input)
-        view.
+        
     }
     
     
